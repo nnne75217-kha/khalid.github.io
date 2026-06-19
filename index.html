@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سيرتي الذاتية الشخصية</title>
+    <style>
+        /* التنسيقات العامة للصفحة والخلفية */
+        body { 
+            font-family: sans-serif; 
+            background: #f0f4f8; 
+            text-align: center; 
+            padding: 20px; 
+            color: #333; 
+        }
+        /* كرت الواجهة الشخصية */
+        .card { 
+            background: white; 
+            max-width: 450px; 
+            margin: 50px auto; 
+            padding: 30px; 
+            border-radius: 15px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+        }
+        /* تعديل شكل الصورة الشخصية لتصبح دائرية */
+        .profile-img { 
+            width: 130px; 
+            height: 130px; 
+            border-radius: 50%; 
+            object-fit: cover; 
+            border: 4px solid #0f766e; 
+            margin-bottom: 15px; 
+        }
+        h1 { 
+            color: #0f766e; 
+            margin-bottom: 5px; 
+        }
+        .subtitle { 
+            font-size: 1.1em; 
+            color: #666; 
+            margin-bottom: 20px; 
+        }
+        /* صندوق تفاصيل السيرة الذاتية */
+        .details { 
+            text-align: right; 
+            background: #f9f9f9; 
+            padding: 15px; 
+            border-radius: 10px; 
+            margin-bottom: 25px; 
+        }
+        .details p { 
+            margin: 10px 0; 
+            font-size: 1em; 
+            border-bottom: 1px dashed #eee;
+            padding-bottom: 5px;
+        }
+        .details strong { 
+            color: #0f766e; 
+        }
+        /* زر التواصل المباشر عبر الواتساب */
+        .btn-whatsapp { 
+            display: inline-block; 
+            background: #25D366; 
+            color: white; 
+            text-decoration: none; 
+            padding: 12px 25px; 
+            border-radius: 25px; 
+            font-weight: bold; 
+            font-size: 1.1em;
+            box-shadow: 0 3px 10px rgba(37,211,102,0.3); 
+            transition: 0.3s ease;
+        }
+        .btn-whatsapp:hover {
+            background: #20ba5a;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+       <img src="my-photo.jpg" alt="الصورة الشخصية" class="profile-img">
+        
+        <h1>[  ابوطوفان خالد العنسي]</h1>
+        <p class="subtitle">طالب علوم حاسوب | مطور ويب مستقبلي</p>
+        
+        <div class="details">
+            <p><strong>التخصص الأكاديمي:</strong> علوم حاسوب (Computer Science)</p>
+            <p><strong>المستوى الدراسي:</strong> السنة الثالثة</p>
+            <p><strong>المحافظة / السكن:</strong> الجوف، اليمن</p>
+            <p><strong>المهارات الحالية:</strong> تصميم واجهات الويب (HTML/CSS)، حل المشكلات البرمجية، التفكير المنطقي</p>
+            <p><strong>الهدف المهني:</strong> بناء تطبيقات ومواقع ويب متميزة وخدمة المجتمع التقني</p>
+        </div>
+         <!-- قسم حسابات التواصل الاجتماعي -->
+        <div style="margin-top: 25px;">
+            <p style="font-weight: bold; color: #0f766e; text-align: right;">تواصل معي عبر:</p>
+            
+            <!-- واتساب -->
+            <a href="https://wa.me/9677775019147" target="_blank" class="btn-whatsapp" style="margin: 5px; display: block;">واتساب</a>
+            
+            <!-- فيسبوك (استبدل username بحسابك) -->
+            <a href="https://www.facebook.com/profile.php?id=100058302622223" target="_blank" style="background: #1877F2; color: white; text-decoration: none; padding: 12px 25px; border-radius: 25px; font-weight: bold; display: block; margin: 5px;">فيسبوك</a>
+            
+            <!-- تليجرام (استبدل username بحسابك) -->
+            <a href="https://t.me/Kh_l_a711" target="_blank" style="background: #0088cc; color: white; text-decoration: none; padding: 12px 25px; border-radius: 25px; font-weight: bold; display: block; margin: 5px;">تليجرام</a>
+        </div>
+        </a>
+    </div>
+
+</body>
+</html>
